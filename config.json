@@ -1,7 +1,6 @@
 {
     "paths":{
-        "raw_data": "/workspaces/s5-herramientas_desarrollo_software/data/raw",
-        "clean_data": "/workspaces/s5-herramientas_desarrollo_software/data/clean",
-        "raw_dataset":"/workspaces/s5-herramientas_desarrollo_software/data/raw/vehicles_us.csv"
+        "data": "/workspaces/s5-herramientas_desarrollo_software/data",
+        "dataset":"/workspaces/s5-herramientas_desarrollo_software/data/vehicles_us.csv"
         }
     }

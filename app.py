@@ -2,17 +2,12 @@
 import streamlit as st
 import pandas as pd
 import plotly_express as px
-import json
 
-## Config
-
-with open("./config.json", "r") as file:
-    config = json.load(file)
 st.header('Histograma y Dispersion en funcion de el kilometraje de un vehiculo')
 
 # 
 
-car_data = pd.read_csv(config["paths"]["raw_dataset"])  # leer los datos
+car_data = pd.read_csv("./data/vehicles_us.csv")  # leer los datos
 build_histogram = st.checkbox('Construir un histograma')
 build_scatter = st.checkbox('Construir dispersión')
 
